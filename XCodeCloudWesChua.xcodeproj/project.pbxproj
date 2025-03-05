@@ -35,15 +35,11 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A89465AE2D78BF8C007438F3 /* XCodeCloudWesChua */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = XCodeCloudWesChua;
 			sourceTree = "<group>";
 		};
 		A89465D82D78C389007438F3 /* XCodeCloudWesChuaTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = XCodeCloudWesChuaTests;
 			sourceTree = "<group>";
 		};
@@ -86,7 +82,6 @@
 				693C3C1142569A25DD2E268E /* Pods-XCodeCloudWesChuaTests.debug.xcconfig */,
 				BC14B37DFD9D6D3C82A13340 /* Pods-XCodeCloudWesChuaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
