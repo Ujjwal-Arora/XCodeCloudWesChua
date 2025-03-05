@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A89465DB2D78C389007438F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89465A42D78BF8C007438F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A89465AB2D78BF8C007438F3;
+			remoteInfo = XCodeCloudWesChua;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A89465AC2D78BF8C007438F3 /* XCodeCloudWesChua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCodeCloudWesChua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89465D72D78C389007438F3 /* XCodeCloudWesChuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCodeCloudWesChuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = XCodeCloudWesChua;
 			sourceTree = "<group>";
 		};
+		A89465D82D78C389007438F3 /* XCodeCloudWesChuaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCodeCloudWesChuaTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A89465A92D78BF8C007438F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89465D42D78C389007438F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				A89465AE2D78BF8C007438F3 /* XCodeCloudWesChua */,
+				A89465D82D78C389007438F3 /* XCodeCloudWesChuaTests */,
 				A89465AD2D78BF8C007438F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				A89465AC2D78BF8C007438F3 /* XCodeCloudWesChua.app */,
+				A89465D72D78C389007438F3 /* XCodeCloudWesChuaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = A89465AC2D78BF8C007438F3 /* XCodeCloudWesChua.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A89465D62D78C389007438F3 /* XCodeCloudWesChuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89465DD2D78C389007438F3 /* Build configuration list for PBXNativeTarget "XCodeCloudWesChuaTests" */;
+			buildPhases = (
+				A89465D32D78C389007438F3 /* Sources */,
+				A89465D42D78C389007438F3 /* Frameworks */,
+				A89465D52D78C389007438F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89465DC2D78C389007438F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A89465D82D78C389007438F3 /* XCodeCloudWesChuaTests */,
+			);
+			name = XCodeCloudWesChuaTests;
+			packageProductDependencies = (
+			);
+			productName = XCodeCloudWesChuaTests;
+			productReference = A89465D72D78C389007438F3 /* XCodeCloudWesChuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					A89465AB2D78BF8C007438F3 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					A89465D62D78C389007438F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A89465AB2D78BF8C007438F3;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				A89465AB2D78BF8C007438F3 /* XCodeCloudWesChua */,
+				A89465D62D78C389007438F3 /* XCodeCloudWesChuaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A89465AA2D78BF8C007438F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89465D52D78C389007438F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A89465D32D78C389007438F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A89465DC2D78C389007438F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A89465AB2D78BF8C007438F3 /* XCodeCloudWesChua */;
+			targetProxy = A89465DB2D78C389007438F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A89465B82D78BF8E007438F3 /* Debug */ = {
@@ -302,6 +377,42 @@
 			};
 			name = Release;
 		};
+		A89465DE2D78C389007438F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYJ25JXYC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ujjwalarora.XCodeCloudWesChuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCodeCloudWesChua.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCodeCloudWesChua";
+			};
+			name = Debug;
+		};
+		A89465DF2D78C389007438F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYJ25JXYC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ujjwalarora.XCodeCloudWesChuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCodeCloudWesChua.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCodeCloudWesChua";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +430,15 @@
 			buildConfigurations = (
 				A89465BB2D78BF8E007438F3 /* Debug */,
 				A89465BC2D78BF8E007438F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89465DD2D78C389007438F3 /* Build configuration list for PBXNativeTarget "XCodeCloudWesChuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89465DE2D78C389007438F3 /* Debug */,
+				A89465DF2D78C389007438F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
